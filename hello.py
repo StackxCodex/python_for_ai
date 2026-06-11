@@ -1,6 +1,3 @@
-from py_compile import main
-
-
 print("Hello, World!")
 age = 38
 nickname = "StackxCodex"
@@ -23,7 +20,7 @@ print(full_name)
 long_dash = "-" * 20
 print (long_dash)
 
-len(long_dash)
+print (len(long_dash))
 
 has_license = True 
 can_drive =has_license and age >= 18
